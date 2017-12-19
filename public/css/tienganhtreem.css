@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&subset=vietnamese');
+body{
+	font-family: 'Roboto', sans-serif;
+	padding:0px;
+	margin:0px;
+}
+@media all and (max-width:480px){
+}
+ /*cau hinh cho dien thoai di dong	*/
+ @media all and(max-width: 1024px) {
+ 	/*cau hinh cho dien thoai máy tính	*/
+ }
+ .button{
+	    display: inline-block;
+    padding: 8px 15px;
+    font-size: 18px;
+    box-shadow: none;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #5cb7ba;
+    border: none;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.button:hover{
+	background: #28dde4;
+    transition: all 0.4s ease;
+    transform: scale(1.02);
+    box-shadow: 0px 3px 10px -3px #333333;
+}
+.container{
+	max-width: 920px;
+}
+.logo {
+	text-align: center;
+}
+.logo a img{
+	width: 80px;
+}
+.navigation{
+	background: url("../img/bg-sv-1.jpg") center center/100%;
+	height: 500px;
+}
+.navigation h1{
+	text-align: center;
+	color: #fff;
+	padding-top: 50px;
+	font-size: 40px;
+}
+.navigation p{
+	font-size: 17px;
+	text-shadow:0px 0px 1px;
+	text-align: justify;
+}
+.navavigation-top{
+	background: url("../img/bg-sv-1.jpg")no-repeat top center/100%;
+	height: 50px;
+}
+/*.box{}
+.table{
+	margin-top: -40px;
+}
+.box .table th{
+	color: #fff;
+	background-color: #ffab7c;
+	text-align: center;
+	height: 60px;
+	font-size: 24px;
+}
+.box .table td{
+	text-align: center;
+	color: #fff;
+	padding-top: 30px;
+	font-size: 18px;
+}
+.box .table td .button{
+	display: inline-block;
+	padding: 4px 15px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #03eff8;
+	border: none;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.box .table td .h1{
+	font-size: 35px;
+	padding-top: 30px;
+}
+#box1{
+	background-color: #ff9566;
+}
+#box2{
+	background-color: #ff9751;
+}
+#box3{
+	background-color: #e8b08b;
+}*/
+.page{
+	color: #fff;
+    margin-top: -40px;
+}
+.page-1{
+	background:#ff9566;
+}
+.page-1 .h1{
+    background: #ffab7c;
+}
+.page h2{
+	margin-top:-40px;
+	height: 60px;
+
+}
+h3{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+ .page span{
+	margin: 0 50px;
+    display: inline-block;
+}
+
+.page-2{
+	background:#ff9751;
+}
+.page-2 .h1{
+    background: #ff7d43;
+}
+.page-3{
+	background:#e8b08b;
+}
+.page-3 .h1{
+    background:#e54e0b;
+}
+.page-1 h2, .page-2 h2, .page-3 h2{
+	line-height: 60px;
+	margin: 0px;
+ /*end page-top*/
+}
+/* end bottom */
+
+/* end*/
+.box h4{
+	color:#748d8d;
+	text-align: center;
+	padding-top: 30px;
+
+}
+.last{background: url("../img/bg-sv-2.jpg")no-repeat center center/cover;
+ 	height: 260px;
+ 	margin-top: 40px
+ }
+ .last h2{
+ 	margin-top: 110px;
+ 	text-align:center;
+ 	color: #353131;
+ } 
+ .footer{
+ 	padding-top: 30px;
+ }
+ .footer p{
+ 	color: #e8b08b;
+ }
+ .footer .text {
+ 	color: #babfbc;
+ }
+ /*end stop*/
