@@ -12,9 +12,10 @@ class AlterTableUserAddFieldPhones extends Migration {
 	 */
 	public function up()
 	{
+		//
 		Schema::table('user', function(Blueprint $table)
 		{
-			$table->string('username', 250)->after('id');;
+			$table->string('username', 250)->after('id');
 		});
 	}
 
